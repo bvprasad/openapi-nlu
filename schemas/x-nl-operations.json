@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "x-nl-operations Schema",
+    "description": "Schema for the x-nl-operations extension that specifies the domain-level operations performed by an endpoint",
+    "type": "array",
+    "items": {
+      "type": "string",
+      "minLength": 1
+    },
+    "minItems": 1,
+    "examples": [
+      ["Read", "RetrieveWeather"],
+      ["Create", "PlaceOrder"],
+      ["Update", "ModifyProfile"]
+    ]
+  }

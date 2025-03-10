@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "x-nl-relationships Schema",
+    "description": "Schema for the x-nl-relationships extension that defines parameter-specific relationships that override or add to the default relationships defined at the entity level",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": ["name", "type", "targetEntity"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Descriptive name for the relationship",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "description": "The type of relationship",
+          "minLength": 1
+        },
+        "targetEntity": {
+          "type": "string",
+          "description": "The name of the target domain entity (must be listed in x-nl-entities)",
+          "minLength": 1
+        }
+      }
+    },
+    "minItems": 1,
+    "examples": [
+      [
+        {
+          "name": "unitContext",
+          "type": "unitOf",
+          "targetEntity": "WeatherCondition"
+        }
+      ]
+    ]
+  }

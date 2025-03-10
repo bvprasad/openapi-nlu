@@ -1,0 +1,185 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="xTp1occxJZwKzbpsH5ey">
+    <mxGraphModel dx="2532" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="TRgMmqfMPzgQy92v2Ckh-2" target="TRgMmqfMPzgQy92v2Ckh-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-9" value="has current weather&lt;div&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TRgMmqfMPzgQy92v2Ckh-7" vertex="1" connectable="0">
+          <mxGeometry x="0.0126" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="TRgMmqfMPzgQy92v2Ckh-2" target="TRgMmqfMPzgQy92v2Ckh-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-10" value="has forecast&lt;div&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TRgMmqfMPzgQy92v2Ckh-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.1296" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-2" value="Location&lt;div&gt;&lt;b&gt;Entity&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="440" y="170" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-3" value="Weather Condition&lt;div&gt;&lt;b&gt;Entity&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="270" y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-4" value="Weather Forecast&lt;div&gt;&lt;b&gt;Entity&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="610" y="60" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-5" value="Get Current Weather&lt;div&gt;&lt;b&gt;intent&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="270" y="285" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TRgMmqfMPzgQy92v2Ckh-6" value="Get Forecast&lt;div&gt;&lt;b&gt;Intent&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="610" y="285" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TRgMmqfMPzgQy92v2Ckh-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TRgMmqfMPzgQy92v2Ckh-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560.0000000000005" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-3" target="Y40FJEtaHeOrHdxtcskA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-3" value="OpenAPI Root" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-579" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-5" target="Y40FJEtaHeOrHdxtcskA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-5" target="Y40FJEtaHeOrHdxtcskA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-5" value="GET /weather/current&lt;div&gt;&lt;b&gt;End Point&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-723" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-7" target="Y40FJEtaHeOrHdxtcskA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-7" target="Y40FJEtaHeOrHdxtcskA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-7" value="GET /weather/forecast&lt;div&gt;&lt;b&gt;End Point&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-8" value="City&lt;div&gt;&lt;b&gt;Parameter&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-929" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-9" target="Y40FJEtaHeOrHdxtcskA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-9" value="Unit&lt;div&gt;&lt;b&gt;Parameter&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-929" y="480" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-10" value="Response (200)&lt;div&gt;&lt;b&gt;Weather Schema&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-723" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-11" value="City&lt;div&gt;&lt;b&gt;Parameter&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-226" y="532" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-13" value="Response (200)&lt;div&gt;&lt;b&gt;Forecast Schema&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-15" target="Y40FJEtaHeOrHdxtcskA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-15" target="Y40FJEtaHeOrHdxtcskA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-15" value="Paths" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-579" y="290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-21" value="OpenAPI Spec" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-559" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-22" value="Proposed OpenAPI Spec" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-12" target="Y40FJEtaHeOrHdxtcskA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-12" value="Unit&lt;div&gt;&lt;b&gt;Parameter&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-226" y="480" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-30" target="Y40FJEtaHeOrHdxtcskA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-30" target="Y40FJEtaHeOrHdxtcskA-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-30" value="GET /weather/current&lt;div&gt;&lt;b&gt;End Point&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-31" target="TRgMmqfMPzgQy92v2Ckh-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="547" />
+              <mxPoint x="70" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-46" value="Is Type" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="Y40FJEtaHeOrHdxtcskA-45">
+          <mxGeometry x="-0.5043" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-31" value="City&lt;div&gt;&lt;b&gt;Parameter&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="532" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-32" target="Y40FJEtaHeOrHdxtcskA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-32" value="Unit&lt;div&gt;&lt;b&gt;Parameter&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-33" value="Response (200)&lt;div&gt;&lt;b&gt;Weather Schema&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-41" target="Y40FJEtaHeOrHdxtcskA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-41" target="Y40FJEtaHeOrHdxtcskA-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-41" value="GET /weather/forecast&lt;div&gt;&lt;b&gt;End Point&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-42" value="City&lt;div&gt;&lt;b&gt;Parameter&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="809" y="532" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-43" value="Response (200)&lt;div&gt;&lt;b&gt;Forecast Schema&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="610" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-44" value="Unit&lt;div&gt;&lt;b&gt;Parameter&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="809" y="480" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="Y40FJEtaHeOrHdxtcskA-43" target="TRgMmqfMPzgQy92v2Ckh-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="610" />
+              <mxPoint x="1000" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-48" value="Is Type" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="Y40FJEtaHeOrHdxtcskA-47">
+          <mxGeometry x="-0.0622" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y40FJEtaHeOrHdxtcskA-49" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="770" as="sourcePoint" />
+            <mxPoint y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

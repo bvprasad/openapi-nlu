@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "x-nl-domain Schema",
+    "description": "Schema for the x-nl-domain extension that specifies the domain or business area to which the API belongs",
+    "type": "string",
+    "minLength": 1,
+    "examples": [
+      "Weather Information",
+      "E-commerce",
+      "Financial Services",
+      "Healthcare"
+    ]
+  }

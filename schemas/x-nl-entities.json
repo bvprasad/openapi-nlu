@@ -1,0 +1,65 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "x-nl-entities Schema",
+    "description": "Schema for the x-nl-entities extension that defines the core domain entities managed by the API",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the domain entity",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "description": "A natural language description of the entity"
+        },
+        "relationships": {
+          "type": "array",
+          "description": "Relationships associated with this entity",
+          "items": {
+            "type": "object",
+            "required": ["name", "type", "targetEntity"],
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Descriptive name for the relationship",
+                "minLength": 1
+              },
+              "type": {
+                "type": "string",
+                "description": "The type of relationship",
+                "minLength": 1
+              },
+              "targetEntity": {
+                "type": "string",
+                "description": "The name of the target domain entity (must be listed in x-nl-entities)"
+              }
+            }
+          }
+        }
+      }
+    },
+    "minItems": 1,
+    "examples": [
+      [
+        {
+          "name": "Location",
+          "description": "Represents a geographical location.",
+          "relationships": [
+            {
+              "name": "currentWeather",
+              "type": "hasCurrentWeather",
+              "targetEntity": "WeatherCondition"
+            }
+          ]
+        },
+        {
+          "name": "WeatherCondition",
+          "description": "Represents current weather conditions."
+        }
+      ]
+    ]
+  }
