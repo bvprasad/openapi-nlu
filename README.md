@@ -41,6 +41,9 @@ All extensions are prefixed with `x-nl-` and are optional unless specified other
 | `x-nl-entity-type` | Parameter/Response | Links to domain entities |
 | `x-nl-relationships` | Parameter | Parameter-specific entity relationships |
 
+## Specification
+You can read the complete specification [here](./specification.md)
+
 ## Getting Started
 
 ### Basic Usage
